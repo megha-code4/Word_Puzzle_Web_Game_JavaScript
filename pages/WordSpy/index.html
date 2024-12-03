@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Spy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="text-center"><a class="no-hover-underline" href="../html/selectgame.html">Word Spy</a></h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container1">
+                    <div class="settings">
+                        <select id="category">
+                            <option value="all">Word Type</option>
+                            <option value="bolly">Bollywood</option>
+                            <option value="holly">Hollywood</option>
+                        </select>
+                        <select id="difficulty">
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                    </div>
+                    <p id="word"></p><br>
+                    <p id="guessedLetters">Guessed letters: </p>
+                    <div class="input-group">
+                        <input class="text-center" type="text" id="guess" placeholder="Enter your guess"><br><br>
+                        
+                        <div class="button-container">
+                            <br><button id="submit1" class="btn btn-primary">Submit</button>
+                            <br><button id="hint1" class="btn btn-secondary">Hint</button>
+                        </div>
+                    </div>
+                    <p id="result"></p>
+                    <p id="time"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container2">
+                    <h2>Score</h2>
+                    <p>Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span></p>
+                    <button id="resetScores">Reset Scores</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> </body>
+</html>

@@ -1,0 +1,61 @@
+.background-image {
+    background-image: url('../../image/home.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-attachment: fixed;
+    box-sizing: border-box; 
+    
+  }
+  
+  p {
+    color: rgb(26, 174, 90);
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px; /* Add some space below the text */
+    text-align: left;
+    padding-right: 190px;
+  }
+ 
+  b{
+    left: 100px;
+  }
+  .bgtext{
+    display: inline-block;
+  width: 175px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  /*background-image: url('../../image/images-removebg-preview.png'); /* Replace with your image path */
+  background-size: contain; /* Or cover, depending on how you want the image to fit */
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 120px; /* Adjust positioning as needed */
+  top: 39%;
+   transform: translateY(-50%);
+    
+  }
+  .text button {
+    position: relative;
+  }
+  .account-icon {
+      display: inline-block;
+      width: 180px;
+      height: 175px;
+      background-image: url("../../image/images-removebg-preview.png");
+      box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
+
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
